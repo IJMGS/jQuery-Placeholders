@@ -1,0 +1,18 @@
+jQuery Placeholders V1.0
+
+README
+
+Not much to say, just run it through your site using
+
+$(document).placeholders();
+
+The script will check it's IE, and if it is will generate an object
+containing the default values of the inputs that have the placeholders.
+
+After on, it'll bind the focus in and focus out events to correctly
+remove the placeholder or show it in case of leaving the input and not
+writing anything
+
+
+
+Created by Mauro casas <surf@ijm.gs>
